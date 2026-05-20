@@ -1,0 +1,9 @@
+{
+  "store.not-found#product": {
+    "blocks": ["flex-layout.row#tapume"]
+  },
+
+  "store.not-found#search": {
+    "blocks": ["flex-layout.row#tapume"]
+  }
+}

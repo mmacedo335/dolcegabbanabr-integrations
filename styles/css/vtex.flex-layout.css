@@ -1,0 +1,46 @@
+.flexRowContent--menu-link,
+.flexRowContent--main-header {
+  padding: 0 0.5rem;
+}
+
+@media screen and (min-width: 40em) {
+  .flexRowContent--menu-link,
+  .flexRowContent--main-header {
+    padding: 0 1rem;
+  }
+}
+@media screen and (min-width: 80rem) {
+  .flexRowContent--menu-link,
+  .flexRowContent--main-header {
+    padding: 0 0.25rem;
+  }
+}
+
+.flexRowContent--main-header {
+  background-color: #f0f0f0;
+}
+
+.flexRowContent--main-header-mobile {
+  align-items: center;
+  padding: 0.625rem 0.5rem;
+  background-color: #f0f0f0;
+}
+
+/* Tapume - Coming Soon */
+.flexRow--tapume {
+  background-color: #ffffff;
+  min-height: 100vh;
+}
+
+.flexRowContent--tapume {
+  min-height: 100vh;
+  background: black;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexCol--tapume {
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}

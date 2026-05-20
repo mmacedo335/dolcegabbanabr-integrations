@@ -1,0 +1,20 @@
+/* Tapume - Logo */
+.logoContainer--tapume {
+  display: flex;
+  justify-content: center;
+}
+
+.logoLink--tapume {
+  pointer-events: none;
+}
+
+.logoImage--tapume {
+  max-width: 600px;
+  filter: brightness(0) invert(1);
+}
+
+@media(max-width: 768px) {
+  .logoImage--tapume {
+    max-width: 300px;
+  }
+}

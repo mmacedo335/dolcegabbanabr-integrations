@@ -1,0 +1,35 @@
+{
+  "flex-layout.row#tapume": {
+    "props": {
+      "fullWidth": true,
+      "blockClass": "tapume"
+    },
+    "children": ["flex-layout.col#tapume"]
+  },
+
+  "flex-layout.col#tapume": {
+    "props": {
+      "blockClass": "tapume",
+      "preventVerticalStretch": true,
+      "horizontalAlign": "center"
+    },
+    "children": ["logo#tapume", "rich-text#tapume"]
+  },
+
+  "logo#tapume": {
+    "props": { 
+      "width": 800,
+      "blockClass": "tapume",
+      "url": "assets/logo.png"
+    }
+  }, 
+
+  "rich-text#tapume": {
+    "props": {
+      "text": "ESTAMOS CHEGANDO",
+      "blockClass": "tapume",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  }
+}
