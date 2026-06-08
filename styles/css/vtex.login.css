@@ -1,0 +1,76 @@
+.formTitle {
+    margin-block-end: 2.125rem;
+    text-transform: uppercase;
+    letter-spacing: .56px;
+    font-size: 1rem;
+}
+
+:global(.vtex-input-prefix__group) {
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid black;
+    line-height: 1;
+    letter-spacing: .5px;
+    height: 2.125rem;
+}
+
+:global(.vtex-styleguide-9-x-input) {
+    color: black;
+    font-size: 0.75rem;
+    padding: 0;
+    margin-block-end: 0;
+}
+
+.forgotPasswordLink {
+    font-size: 0.625rem;
+    text-decoration: underline;
+}
+
+.dontHaveAccount {
+    font-size: 0.825rem;
+    text-decoration: underline;
+}
+
+.content {
+    gap: 2.125rem;
+    max-width: 980px;
+}
+
+.loginOptionsContainer,
+.contentForm {
+    width: 100%;
+}
+
+.optionsListItem .button :global(.vtex-button) {
+    text-transform: none;
+    letter-spacing: .56px;
+    background: transparent;
+    border-color: black;
+    font-size: 0.875rem;
+    line-height: 1rem;
+}
+
+.inputContainer {
+    margin-block-end: 0.75rem;
+}
+
+.formFooter {
+    border: none;
+    margin-block-start: 1.125rem;
+}
+
+:global(.vtex-input-prefix__group) input,
+:global(.vtex-input-prefix__group) select {
+    border: none;
+    font-family: "FuturaLTPro-Book" !important;
+    padding: 0;
+    font-size: 0.75rem;
+}
+
+:global(.red.f6.mt3.lh-title) {
+    font-size: .675rem;
+} 
+
+:global(.vtex-account) :global(.pv9-l) {
+    padding-top: 0;
+}

@@ -1,18 +1,50 @@
 {
   "header": {
-    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
   },
   "header.full": {
-    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
   },
-
   // Desktop
   "header-layout.desktop": {
-    "children": ["flex-layout.row#tapume"]
+    "children": [
+      "flex-layout.row#header"
+    ]
   },
-
   // Mobile
   "header-layout.mobile": {
-    "children": ["flex-layout.row#tapume"]
+    "children": [
+      "flex-layout.row#header"
+    ]
+  },
+  "flex-layout.row#header": {
+    "children": [
+      "flex-layout.col#header-logo"
+    ],
+    "props": {
+      "marginTop": 7,
+      "marginBottom": 4,
+      "paddingBottom": 4,
+      "blockClass": "header-content"
+    }
+  },
+  "flex-layout.col#header-logo": {
+    "children": [
+      "logo#header-desktop"
+    ]
+  },
+  "logo#header-desktop": {
+    "props": {
+      "width": 165,
+      "blockClass": "logo",
+      "url": "assets/logo.png", 
+      "href": "/"
+    }
   }
 }
