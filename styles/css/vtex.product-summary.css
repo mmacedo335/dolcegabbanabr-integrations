@@ -1,0 +1,50 @@
+.nameContainer .productBrand {
+    text-align: left;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    max-width: none;
+    white-space: normal;
+    text-decoration: none;
+    font-size: .75rem;
+    line-height: 1.375rem;
+    text-transform: none;
+    letter-spacing: .03rem;
+    font-weight: 400;
+}
+
+.nameContainer,
+.priceContainer {
+    justify-content: left;
+    text-align: left;
+}
+
+.currencyContainer {
+    font-size: .75rem;
+    line-height: 1rem;
+    font-weight: 400;
+    letter-spacing: .48px;
+}
+
+.productPriceClass {
+    width: 100%;
+}
+
+.priceContainer {
+    padding-top: 0;
+}
+
+.nameContainer {
+    padding-bottom: 0;
+    height: 75px;
+}
+
+.imageNormal {
+    max-height: 100%;
+}
+
+.element {
+    margin: 0px 5px;
+}

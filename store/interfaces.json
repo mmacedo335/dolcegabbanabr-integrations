@@ -1,5 +1,5 @@
 {
-  "tapume-logo": {
-    "component": "TapumeLogo"
+  "custom-styles": {
+    "component": "CustomStyles"
   }
 }

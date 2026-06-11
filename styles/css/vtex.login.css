@@ -69,8 +69,13 @@
 
 :global(.red.f6.mt3.lh-title) {
     font-size: .675rem;
-} 
+}
 
 :global(.vtex-account) :global(.pv9-l) {
     padding-top: 0;
+}
+
+:global(.vtex-my-account-1-x-newsletterBoxContainer),
+:global(.vtex-profile-form-3-x-toggleBusinessButtonWrapper) {
+    display: none;
 }

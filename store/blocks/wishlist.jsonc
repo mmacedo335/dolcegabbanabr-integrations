@@ -44,13 +44,11 @@
         "children": [
             "slider-layout#wishlist"
         ]
-    },
+    }, 
     "product-summary.shelf#wishlist": {
         "children": [
-            "add-to-list-btn",
             "product-summary-image",
             "product-summary-name",
-            "product-summary-space",
             "product-summary-price"
         ]
     },
@@ -65,7 +63,8 @@
             "showPaginationDots": "always",
             "infinite": false,
             "fullWidth": true,
-            "blockClass": "shelf"
+            "blockClass": "shelf",
+            "centerModeSlidesGap": 6
         }
     }
 }

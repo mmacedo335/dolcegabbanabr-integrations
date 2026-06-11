@@ -14,12 +14,14 @@
   // Desktop
   "header-layout.desktop": {
     "children": [
+      "custom-styles",
       "flex-layout.row#header"
     ]
   },
   // Mobile
   "header-layout.mobile": {
     "children": [
+      "custom-styles",
       "flex-layout.row#header"
     ]
   },
