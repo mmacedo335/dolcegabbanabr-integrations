@@ -76,6 +76,11 @@
 }
 
 :global(.vtex-my-account-1-x-newsletterBoxContainer),
-:global(.vtex-profile-form-3-x-toggleBusinessButtonWrapper) {
+:global(.vtex-profile-form-3-x-toggleBusinessButtonWrapper),
+:global(.vtex-login-2-x-loginOptionsContainer) {
     display: none;
+}
+
+:global(.vtex-login-2-x-content) {
+    max-width: 480px
 }

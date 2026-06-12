@@ -6,7 +6,7 @@
   "login-content#default": {
     "props": {
       "isInitialScreenOptionOnly": false,
-      "defaultOption": 1,
+      "defaultOption": 0, 
       "showPasswordVerificationIntoTooltip": false
     }
   }
